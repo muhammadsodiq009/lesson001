@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url(./Screenshot\ \(40\).png) no-repeat center/cover;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+
+}
+.navbar{
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    border-bottom: 0px solid white;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+    flex: 1;
+}
+.plus{
+    font-size: 30px;
+    color: red;
+}
+.colletion{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.item{
+    color: white;
+    
+}
+.item:hover{
+    color: darkturquoise;
+    border-bottom: 1px solid darkturquoise ;
+    cursor: pointer;
+    transition: 0.5s linear .0s all;
+    font-size: 20px;
+}
+.textlogo{
+    margin-left: 5%;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 80px;
+    color: white;   
+}
+.plus2{
+    font-size: 70px;
+    color: red;
+}
+.text{
+    font-size: 60px;
+    color: white;
+    margin-left: 9%;
+    margin-top: 30px;
+}
+.info{
+    margin-left: 10%;
+    color: white;
+    font-size: 30px;
+}
+.btn{
+    width: 170px;
+    color: white;
+    height: 40px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background: darkturquoise;
+}
+
+
+
+
+
+
+
